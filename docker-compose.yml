@@ -1,0 +1,8 @@
+services:
+  exchange:
+    build: .
+    container_name: oreore_exchange
+    volumes:
+      - ./:/workspace
+    tty: true
+    command: bash

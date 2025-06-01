@@ -1,0 +1,16 @@
+{
+    "name": "Ada Oreore Exchange",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "exchange",
+    "workspaceFolder": "/workspace",
+    "extensions": [
+        "adacore.ada",
+        "ms-vscode.cpptools"
+    ],
+    "settings": {
+        "editor.formatOnSave": true,
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "ada.projectFile": "oreore_exchange.gpr"
+    },
+    "postCreateCommand": "/usr/local/bin/init_project.sh"
+}

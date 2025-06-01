@@ -1,0 +1,25 @@
+# Ada コンパイル生成物
+bin/
+obj/
+lib/
+*.ali
+*.o
+*.so
+*.a
+*.exe
+
+# Alire
+alire/
+config/
+
+# エディタの一時ファイル
+*~
+.#*
+\#*#
+.*.swp
+
+# VS Code
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json

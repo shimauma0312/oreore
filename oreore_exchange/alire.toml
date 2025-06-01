@@ -1,0 +1,11 @@
+name = "oreore_exchange"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["shoreore-user"]
+maintainers = ["shoreore-user <ryuji.shimabara@gmail.com>"]
+maintainers-logins = ["shimauma0312"]
+
+executables = ["oreore_exchange"]
+[[depends-on]]
+gnat_native = "^13.2.1"
